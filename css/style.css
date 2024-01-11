@@ -1,0 +1,249 @@
+@font-face {
+    font-family: irish-grover;
+    src: url(../fonts/IrishGrover-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: auto;
+    width: 100%;
+    font-family: Inter;
+    background-image: url(../images/noise_texture.png);
+    background-color: #090909;
+}
+
+.navbar{
+    width: 100%;
+    margin-top: 0px;
+    height: 125px;
+    display: flex;
+    position: relative;
+    padding: 0px 30px;
+    background-color: #4219B8;
+}
+
+.top{
+    width: 100%;
+    /* padding: 50px 250px; */
+    /* background-color: white; */
+}
+
+.Ttop{
+    width: 100%;
+    margin-top: 0px;
+    height: 125px;
+    display: flex;
+    position: relative;
+    padding: 0px 30px;
+    background-color: #4219B8;
+}
+
+.logo h3{
+    font-family: irish-grover;
+    color: white;
+    font-size: 50px;
+}
+
+.navleft{
+    width: 20%;
+}
+
+.navmiddle{
+    width: 50%;
+}
+
+.form-control{
+    height: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    background: none;
+    border: none;
+    font-size: 22px;
+}
+
+.nav-item a{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.connect_body{
+    padding: 30px;
+}
+
+.modal-content{
+    color: white;
+    background-color: #090909;
+}
+
+.cbRec{
+    height: 64px;
+    margin-bottom: 15px;
+    background-color: #4219B8;
+}
+
+.cbLeft{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.cbRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cbRight a{
+    text-decoration: underline;
+}
+
+.cblText{
+    padding-top: 10px;
+    margin-left: 10px;
+    color: white;
+    /* background-color: #ab93f1; */
+}
+
+.card{
+    width:250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mdh{
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+
+.md_header{
+    width: 100%;
+    display: flex;
+    position:absolute;
+    justify-content: center;
+    text-align:center;
+}
+
+.md_p{
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    text-align:center;
+}
+
+.Tmiddle{
+    margin-top: 40px;
+    width: 100%;
+    /* background-color: pink; */
+}
+
+.eclipse{
+    width: 100%;
+    height: 220px;
+    /* background-color: #4219B8; */
+}
+
+.eclipse_header{
+    color: white;
+}
+
+.eclipse_pics{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.top_collectors{
+    margin-top: 20px;
+}
+
+.card_header{
+    color: white;
+    margin-top: 40px;
+}
+
+.cio{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cio .right{
+    display: flex;
+    flex-direction: column;
+}
+
+.right .down{
+    margin-top: 10px;
+}
+.bottom{
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+    padding-top: 50px;
+    background-color: #4219B8;
+}
+
+.bLeft{
+    width: auto;
+    height: auto;
+    padding-left: 100px;
+    /* background-color: aqua; */
+}
+
+.links{
+    display: flex;
+    padding-bottom: 26px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.bRight{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.right_text{
+    text-align: end;
+    color: white;
+}
+
+.rBottom{
+    font-size: 15px;
+}
+
+.rImage{
+    width: auto;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    /* background-color: #090909; */
+}
+
+.bottom_logo{
+    font-size: 90px;
+    font-family: irish-grover;
+}
